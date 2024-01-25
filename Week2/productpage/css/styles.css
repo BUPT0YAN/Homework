@@ -1,0 +1,98 @@
+h1{
+    color:blue;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+    color:#333;
+    background-color:#f4f4f4;
+}
+.breadcrumbs ul{
+    list-style: none;
+    padding: 10px;
+    background-color: bisque;
+}
+.breadcrumbs ul li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.product-title{
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(240, 77, 32)
+}
+.product-image img{
+    display: block;
+    margin:0 auto;
+    max-width: 100%;
+    height:auto;
+
+}
+.product-options{
+    text-align: center;
+    margin-top: 20px;
+}
+.times-options{
+    margin-bottom: 10px;
+}
+.times-options button{
+    background-color: rgb(223, 122, 39);
+    color:black;
+    border: none;
+    padding:5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.quantity{
+    margin-bottom: 10px;
+
+}
+.quantity select{
+    padding:5px;
+
+}
+.price{
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.add-to-bag{
+    background-color: #f11212;
+    color: #f4f4f4;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product-description,
+.delivery-options,
+.comments{
+    margin: 20px auto;
+    width:80%;
+
+}
+.delivery-options{
+    width: 100%;
+}
+.delivery-options,
+.delivery-options th,
+.delivery-options td{
+    border:1px solid black;
+    text-align: center;    
+}
+
+.delivery-options th,
+.delivery-options td{
+    padding: 8px;
+    text-align: center;
+}
+.comments{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.comments h3{
+    margin: 0;
+}
